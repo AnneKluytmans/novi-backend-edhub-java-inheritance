@@ -3,19 +3,22 @@ public class Customer {
     private String lastName;
     private int customerNumber;
     private CreditCard creditCard;
+    private ContactInfo contactInfo;
 
 
-    public Customer(String firstName, String lastName, CreditCard creditCard) {
+    public Customer(String firstName, String lastName, CreditCard creditCard, ContactInfo contactInfo) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.creditCard = creditCard;
+        this.contactInfo = contactInfo;
     }
 
-    public Customer(String firstName, String lastName, int customerNumber, CreditCard creditCard) {
+    public Customer(String firstName, String lastName, int customerNumber, CreditCard creditCard, ContactInfo contactInfo) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.customerNumber = customerNumber;
         this.creditCard = creditCard;
+        this.contactInfo = contactInfo;
     }
 
 
@@ -53,6 +56,13 @@ public class Customer {
         this.creditCard = creditCard;
     }
 
+    public ContactInfo getContactInfo() {
+        return contactInfo;
+    }
+
+    public void setContactInfo(ContactInfo contactInfo) {
+        this.contactInfo = contactInfo;
+    }
 
 
     public void printName(){
