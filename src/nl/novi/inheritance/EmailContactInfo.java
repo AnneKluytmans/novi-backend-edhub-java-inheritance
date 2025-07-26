@@ -1,6 +1,6 @@
-package main;
+package nl.novi.inheritance;
 
-public class EmailContactInfo implements ContactInfo{
+public class EmailContactInfo implements ContactInfo {
 
     private String email;
 

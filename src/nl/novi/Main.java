@@ -1,4 +1,6 @@
-package main;
+package nl.novi;
+
+import nl.novi.inheritance.*;
 
 public class Main {
 

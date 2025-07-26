@@ -1,4 +1,4 @@
-package main;
+package nl.novi.inheritance;
 
 public abstract class CreditCard {
     private int debt;

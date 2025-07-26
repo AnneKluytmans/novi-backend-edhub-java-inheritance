@@ -14,8 +14,8 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
-    <!-- Aangeven welke file de main methode heeft zodat deze uitgevoerd kan worden-->
-    <exec.mainClass>main.Main</exec.mainClass>
+    <!-- Aangeven welke file de inheritance methode heeft zodat deze uitgevoerd kan worden-->
+    <exec.mainClass>nl.novi.Main</exec.mainClass>
 
     <!-- Aangeven welke java versie we willen gebruiken-->
     <maven.compiler.target>17</maven.compiler.target>

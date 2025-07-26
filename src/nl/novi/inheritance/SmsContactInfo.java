@@ -1,6 +1,6 @@
-package main;
+package nl.novi.inheritance;
 
-public class SmsContactInfo implements ContactInfo{
+public class SmsContactInfo implements ContactInfo {
 
     private String phoneNumber;
 

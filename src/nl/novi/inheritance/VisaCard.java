@@ -1,4 +1,4 @@
-package main;
+package nl.novi.inheritance;
 
 public class VisaCard extends CreditCard {
     public VisaCard(int debt) {
