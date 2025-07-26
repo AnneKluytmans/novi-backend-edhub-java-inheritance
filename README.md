@@ -42,13 +42,9 @@ In this project, I practice working with **Java classes, constructors, object in
 
 1. Open the project in **IntelliJ IDEA**
 2. Locate the `Main` class in `src/inheritance/java`
-3. Run the `inheritance()` method using the green play button or use the terminal:
+3. Run the `Main()` method using the green play button or use the terminal:
 ```bash
 ./mvnw clean compile exec:java
-```
-3. To run tests: open `MainTest.java` in `src/test/java`, and click the green play button → **Run 'MainTest'** or use the terminal:
-```bash
-./mvnw test
 ```
 
 ## Credits
