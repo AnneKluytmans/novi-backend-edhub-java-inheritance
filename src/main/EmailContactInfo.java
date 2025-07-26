@@ -1,3 +1,5 @@
+package main;
+
 public class EmailContactInfo implements ContactInfo{
 
     private String email;

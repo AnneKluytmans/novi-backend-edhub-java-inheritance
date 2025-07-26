@@ -1,3 +1,5 @@
+package main;
+
 public class SmsContactInfo implements ContactInfo{
 
     private String phoneNumber;

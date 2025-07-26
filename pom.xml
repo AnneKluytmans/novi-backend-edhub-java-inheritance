@@ -15,7 +15,7 @@
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
     <!-- Aangeven welke file de main methode heeft zodat deze uitgevoerd kan worden-->
-    <exec.mainClass>Main</exec.mainClass>
+    <exec.mainClass>main.Main</exec.mainClass>
 
     <!-- Aangeven welke java versie we willen gebruiken-->
     <maven.compiler.target>17</maven.compiler.target>
