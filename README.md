@@ -40,12 +40,12 @@ In this project, I practice working with **Java classes, constructors, object in
 
 ## How to Run
 
-1. Open the project in **IntelliJ IDEA**
-2. Locate the `Main` class in `src/inheritance/java`
-3. Run the `Main()` method using the green play button or use the terminal:
-```bash
-./mvnw clean compile exec:java
-```
+1. Open the project in your IDE (IntelliJ IDEA)
+2. Navigate to the `Main` class
+3. Locate the `main` method and click the green play button to **Run 'Main'** or use the terminal:
+    ```bash
+   mvn clean compile exec:java
+   ```
 
 ## Credits
 > "This assignment was developed as part of the Backend Java module in the NOVI Software Development program. All instructions, logic, and structure are part of the official coursework."
